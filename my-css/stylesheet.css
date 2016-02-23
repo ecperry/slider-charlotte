@@ -1,0 +1,66 @@
+header {
+  text-align:center;
+  font-size: 100%;
+  font-family:sans-serif;
+  color: darkgrey;
+
+
+}
+img {
+  position:center;
+  width:100%;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+h1 {
+  text-align:left;
+  vertical-align: center;
+  font-size: 250%;
+  font-family:serif;
+}
+
+p {
+  color: white;
+}
+
+h3 {
+  color: darkgrey;
+}
+.button {
+    background-color: #7b9d6f;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+    align:right;
+    width:100%;
+
+}
+
+.fun {
+    background-color: #7b9d6f;
+     border: none;
+     color: white;
+     padding: 5px 5px 5px 5px;
+     margin-bottom: 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+
+    width:auto;
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}

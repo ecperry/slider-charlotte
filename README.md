@@ -1,1 +1,1 @@
-# educational-slider
+#art-slider
