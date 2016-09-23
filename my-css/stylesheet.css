@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 header {
   text-align:center;
   font-size: 100%;
@@ -28,6 +32,23 @@ p {
 
 h3 {
   color: darkgrey;
+}
+.success {
+  color: #43ac6a;
+}
+
+.primary {
+  color: #008cba;
+}
+
+.warning {
+color: #e99002; 
+}
+.bullet {
+  font-family: FontAwesome;
+}
+.bullet:before {
+  content: "\f0c4";
 }
 .button {
     background-color: #7b9d6f;
